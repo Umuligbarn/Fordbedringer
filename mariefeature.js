@@ -14,12 +14,8 @@ function playIntroFunktion() {
   video.style.display = "block"; // gør videoen synlig, når knappen trykkes
   video.play(); // starter videoen
   playIntroKnap.style.display = "none"; // skjuler playknappen
-
-  // vis spring over/mute knap kun hvis videoen spiller
-  if (video.paused === false) {
-    springOverKnap.style.display = "flex";
-    muteKnap.style.display = "block";
-  }
+  springOverKnap.style.display = "flex"; // viser spring over knap
+  muteKnap.style.display = "block"; // viser mute knap
 }
 
 // mute knap funktion click/touchstart
