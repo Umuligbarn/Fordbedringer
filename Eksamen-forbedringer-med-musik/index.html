@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menstruationscyklussen - Forside</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="mariefeature.js" defer></script>
+</head>
+
+<body>
+    <!-- wrapper for at fastsætte størrelsen til mias computer -->
+    <div class="wrapper">
+        <!-- container -->
+        <div class="container">
+            <!-- cirklen i midten med tekst og play/video -->
+            <div class="introCircle">
+                <!-- videoframe med knap + video -->
+                <div class="videoFrame">
+                    <!-- playknap -->
+                    <button id="playIntroKnap" class="playIntroKnap">
+                        <img src="img/playknap.png" alt="Play">
+                    </button>
+
+                    <!-- intro video -->
+                    <video id="video" class="video" style="display: none">
+                        <source src="video/introvideolille.mp4" type="video/mp4">
+                    </video>
+                    <!-- mute knap -->
+                    <button id="muteKnapIntro">
+                        <img id="muteIkon" src="img/muteknap.png" alt="Mute ikon">
+                    </button>
+                </div>
+
+                <!-- intro tekst (png) -->
+                <div class="rotationWrapper">
+                    <img src="img/buettekst.png" alt="Buet tekst" class="buetTekst">
+                </div>
+            </div>
+
+            <!-- spring over knap -->
+            <div id="springOverKnap" class="springOverKnap" style="display: none">
+                <div class="springOverTekst">Spring over</div>
+                <button id="springOverBillede" class="springOverBillede">
+                    <img src="img/springoverknap.png" alt="Spring over knap">
+                </button>
+            </div>
+
+            <!-- hjørneikoner -->
+            <div class="hjoerne snefnug">
+                <img src="img/snefnug.png" alt="Snefnug">
+            </div>
+
+            <div class="hjoerne blomster">
+                <img src="img/blomster.png" alt="Blomster">
+            </div>
+
+            <div class="hjoerne blade">
+                <img src="img/blade.png" alt="Blade">
+            </div>
+
+            <div class="hjoerne sol">
+                <img src="img/sol.png" alt="Sol">
+            </div>
+        </div>
+        <!-- container slut -->
+    </div>
+    <!-- wrapper slut -->
+</body>
+
+</html>
